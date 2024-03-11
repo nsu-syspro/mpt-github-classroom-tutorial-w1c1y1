@@ -139,12 +139,13 @@ $ cd `mpt-github-classroom-tutorial-<your-github-login>`
 
   ```console
   $ mkdir solution
-  $ cat > solution/hello.sh
+  $ cat << EOF > solution/hello.sh
   echo "Hello World!"
-  ^C
+  EOF
   ```
 
-  > Запись `^C` означает комбинацию клавиш `Ctrl+C`.
+  > Последняя команда `cat` использует синтаксис [Here document](https://en.wikipedia.org/wiki/Here_document#Unix_shells)
+  > для записи многострочного файла и может быть вставлена в терминал полностью, включая введенный текст с `echo` и `EOF`.
   ---
 </details>
 
