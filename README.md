@@ -158,10 +158,10 @@ Hello World!
 
 ## Отправка решения
 
-Для отправки решения на сервер можно выполнить следующие команды:
+Для отправки решения на сервер можно выполнить следующие команды в корне репозитория:
 
 ```console
-$ git add *
+$ git add solution/hello.sh
 $ git commit -m 'Update solution'
 [main 9a38f67] Update solution
  1 file changed, 1 insertion(+)
