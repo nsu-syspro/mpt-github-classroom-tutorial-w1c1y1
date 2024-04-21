@@ -67,7 +67,7 @@ Press Enter to open github.com in your browser...
 ✓ Authentication complete.
 - gh config set -h github.com git_protocol https
 ✓ Configured git protocol
-✓ Logged in as <your-github-login>
+✓ Logged in as <your-github-username>
 ```
 
 Также требуется задать электронную почту и имя пользователя для `git`:
@@ -91,8 +91,8 @@ $ git config --global user.name "Your Name"
 ![](/images/clone-repo.png)
 
 ```console
-$ gh repo clone nsu-syspro/mpt-github-classroom-tutorial-<your-github-login>
-Cloning into 'mpt-github-classroom-tutorial-<your-github-login>'...
+$ gh repo clone nsu-syspro/mpt-github-classroom-tutorial-<your-github-username>
+Cloning into 'mpt-github-classroom-tutorial-<your-github-username>'...
 remote: Enumerating objects: 24, done.
 remote: Counting objects: 100% (24/24), done.
 remote: Compressing objects: 100% (17/17), done.
@@ -101,18 +101,18 @@ Receiving objects: 100% (24/24), 5.80 KiB | 594.00 KiB/s, done.
 Resolving deltas: 100% (1/1), done.
 ```
 
-В результате создастся директория `mpt-github-classroom-tutorial-<your-github-login>`
+В результате создастся директория `mpt-github-classroom-tutorial-<your-github-username>`
 с полной копией репозитория задания, в которую можно перейти с помощью
 
 ```console
-$ cd `mpt-github-classroom-tutorial-<your-github-login>`
+$ cd `mpt-github-classroom-tutorial-<your-github-username>`
 ```
 
 > При клонировании репозитория можно явно задать имя директории, в которой окажется репозиторий.
 >
 > Например, следующая команда склонирует репозиторий в директорию `tutorial`:
 > ```console
-> $ gh repo clone nsu-syspro/mpt-github-classroom-tutorial-<your-github-login> tutorial
+> $ gh repo clone nsu-syspro/mpt-github-classroom-tutorial-<your-github-username> tutorial
 > Cloning into 'tutorial'...
 > ...
 > ```
