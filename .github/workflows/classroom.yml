@@ -54,12 +54,12 @@ jobs:
         HELLO-WORLD_RESULTS: "${{steps.hello-world.outputs.result}}"
       with:
         runners: hello-world
-        
+
   ############################
   # Generate points bar badge
   #
   # Add badge to README.md with
-  # 
+  #
   #   ![Points](../../blob/badges/.github/badges/points-bar.svg)
   #
   # or if you want to float it to the right:
